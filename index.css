@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background:  #87ceeb;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 2.5em; 
+    color: #333;
+    margin-top: 20px; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+img {
+    width: 3em; 
+    height: 3em;
+    margin: 1em;
+    border: 0.2em solid #ccc;
+    border-radius: 50%;
+    transition: transform 0.3s, border-color 0.3s;
+    position: relative;
+    top: 30px;
+    left: 140px;
+}
+
+img:hover {
+    transform: scale(1.2);
+    border-color: #87ceeb;
+}
+
+#guessInput {
+    width: 12em;
+    padding: 0.6em;
+    margin-top: 1em;
+    font-size: 1em;
+    border: 0.2em solid #ccc;
+    border-radius: 0.3em;
+    transition: border-color 0.3s;
+    position: relative;
+    top: 150px;
+}
+
+#guessInput:focus {
+    border-color: #87ceeb;
+    outline: none;
+}
+
+button {
+    background-color: #3805ef;
+    color: rgb(250, 250, 250);
+    font-size: 1em;
+    padding: 0.6em 1.2em;
+    margin-top: 0.6em;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    position: relative;
+    top: 100px;
+}
+
+button:hover {
+    background-color: #4682b4;
+    transform: scale(1.1);
+}
+
+#msg {
+    margin-top: 1.2em;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+}
