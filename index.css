@@ -45,7 +45,8 @@ img:hover {
     border-radius: 0.3em;
     transition: border-color 0.3s;
     position: relative;
-    top: 150px;
+    top: 100px;
+    right:20px;
 }
 
 #guessInput:focus {
@@ -64,7 +65,8 @@ button {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
     position: relative;
-    top: 100px;
+    top: 200px;
+    right: 100px;
 }
 
 button:hover {
